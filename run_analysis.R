@@ -56,5 +56,5 @@ print("file HumanActivity.txt created")
 medias <- aggregate( . ~ activity + subjects, data = Xymean, FUN = mean )
 medias <- medias[order(medias$activity, medias$subjects), ]
 
-write.table(medias, file="averageHumanActivity.txt")
+write.table(medias, file="averageHumanActivity.txt", row.name=FALSE)
 print("file averageHumanActivity.txt created")
