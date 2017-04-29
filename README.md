@@ -20,4 +20,4 @@ The script named "run_analysis.R" does the following:
 
 *The script writes in the working directory of the new data table with the name of the "HumanActivity.txt".
 
-*Finally, the script calculates the average per activity and subject of the variables selected in the section above, recording a new data table called "averageHumanActivity.txt".
+*Finally, the script calculates the average per activity and subject of the variables selected in the section above, recording a new data table called "averageHumanActivity.txt". This file is the same as that included in this repo.
